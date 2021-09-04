@@ -1,0 +1,54 @@
+  654  sudo apt-get install git
+  655  git --version
+  659  mkdir pruebaGit
+  660  cd pruebaGit
+  661  git clone https://github.com/RSSCodes/codigosPruebas.git
+  666  git status
+  669  git status
+  673  git status
+  675  git status
+  676  git branch
+  677  git add .
+  678  git status
+  679  git commit -m "agregando nuevos archivos"
+  680  git config --global user.email "rafaelss7770@gmail.com"
+  681  git config --global user.name "rafass"
+  682  git commit -m "correcto"
+  684  git push
+  686  git push
+  688  git branch
+  689  git branch rama1
+  690  git status
+  691  git checkout rama1
+  692  git branch
+  695  git status
+  697  git add enrama1.txt
+  698  git status
+  699  git commit -m "commit hacia rama1"
+  701  git push
+  702  git push --set-upstream origin rama1
+  703  git status
+  704  git push --set-upstream origin rama2
+  705  git branch rama2
+  706  git branch
+  707  git push --set-upstream origin rama2
+  710  git add Dios.txt
+  711  git status
+  712  git brach rama2
+  713  git branch rama2
+  714  git branch
+  715  git checkout rama2
+  716  git branch
+  717  git commit -m "hacia rama2"
+  718  git push
+  719  git checkout master
+  721  git checkout rama1
+  723  git checkout rama2
+  726  git status
+  729  cd pruebaGit
+  732  git status
+  733  history | grep -i git
+  734  history | grep -i git>>"comandosGit.txt"
+  737  history | grep -i git | unique
+  738  history | grep -i git | uniq
+  739  history | grep -i git | uniq>comandosGit.txt
