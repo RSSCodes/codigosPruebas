@@ -52,3 +52,205 @@
   737  history | grep -i git | unique
   738  history | grep -i git | uniq
   739  history | grep -i git | uniq>comandosGit.txt
+  654  sudo apt-get install git
+  655  git --version
+  659  mkdir pruebaGit
+  660  cd pruebaGit
+  661  git clone https://github.com/RSSCodes/codigosPruebas.git
+  666  git status
+  669  git status
+  673  git status
+  675  git status
+  676  git branch
+  677  git add .
+  678  git status
+  679  git commit -m "agregando nuevos archivos"
+  680  git config --global user.email "rafaelss7770@gmail.com"
+  681  git config --global user.name "rafass"
+  682  git commit -m "correcto"
+  684  git push
+  686  git push
+  688  git branch
+  689  git branch rama1
+  690  git status
+  691  git checkout rama1
+  692  git branch
+  695  git status
+  697  git add enrama1.txt
+  698  git status
+  699  git commit -m "commit hacia rama1"
+  701  git push
+  702  git push --set-upstream origin rama1
+  703  git status
+  704  git push --set-upstream origin rama2
+  705  git branch rama2
+  706  git branch
+  707  git push --set-upstream origin rama2
+  710  git add Dios.txt
+  711  git status
+  712  git brach rama2
+  713  git branch rama2
+  714  git branch
+  715  git checkout rama2
+  716  git branch
+  717  git commit -m "hacia rama2"
+  718  git push
+  719  git checkout master
+  721  git checkout rama1
+  723  git checkout rama2
+  726  git status
+  729  cd pruebaGit
+  732  git status
+  733  history | grep -i git
+  734  history | grep -i git>>"comandosGit.txt"
+  737  history | grep -i git | unique
+  738  history | grep -i git | uniq
+  739  history | grep -i git | uniq>comandosGit.txt
+  743  git status
+  744  git add comandosGit.txt
+  745  git status
+  746  git commit --help
+  747  git commit -m 'agrega comandillos'
+  748  git branch
+  752  git status
+  753  git add .
+  754  git status
+  755  git push
+  758  git status
+  759  git push
+  760  git status
+  761  git add prueba.txt
+  762  git status
+  763  git push
+  764  git add prueba.txt
+  765  git commit -m "cambio prueba"
+  766  git status
+  767  git push
+  770  git commit -m "nuevos cambios"
+  771  git push
+  772  git add prueba.txt
+  773  git commit -m "nuevos cambios mas"
+  774  git push
+  782  git branch
+  783  git pull origin rama2
+  785  git log
+  790  git add $(ls | grep -i sal)
+  791  git commit -m "se agrego el saludo"
+  792  git status
+  793  git push
+  794  git branch
+  795  git log
+  796  git revert 2a3b80c3f15d1b393a59facc0f0a61bf85f057c1
+  797  git push
+  798  git log
+  802  git add viernes.txt
+  803  git commit -m "es viernes"
+  804  git push
+  805  git log
+  806  git revert 644b70aec80025e87f09d39913224d57ff47ea4f
+  807  git push
+  808  ls | grep -i git
+  809  history | grep -i git
+  811  history | grep -i git>>comandosGit.txt
+  654  sudo apt-get install git
+  655  git --version
+  659  mkdir pruebaGit
+  660  cd pruebaGit
+  661  git clone https://github.com/RSSCodes/codigosPruebas.git
+  666  git status
+  669  git status
+  673  git status
+  675  git status
+  676  git branch
+  677  git add .
+  678  git status
+  679  git commit -m "agregando nuevos archivos"
+  680  git config --global user.email "rafaelss7770@gmail.com"
+  681  git config --global user.name "rafass"
+  682  git commit -m "correcto"
+  684  git push
+  686  git push
+  688  git branch
+  689  git branch rama1
+  690  git status
+  691  git checkout rama1
+  692  git branch
+  695  git status
+  697  git add enrama1.txt
+  698  git status
+  699  git commit -m "commit hacia rama1"
+  701  git push
+  702  git push --set-upstream origin rama1
+  703  git status
+  704  git push --set-upstream origin rama2
+  705  git branch rama2
+  706  git branch
+  707  git push --set-upstream origin rama2
+  710  git add Dios.txt
+  711  git status
+  712  git brach rama2
+  713  git branch rama2
+  714  git branch
+  715  git checkout rama2
+  716  git branch
+  717  git commit -m "hacia rama2"
+  718  git push
+  719  git checkout master
+  721  git checkout rama1
+  723  git checkout rama2
+  726  git status
+  729  cd pruebaGit
+  732  git status
+  733  history | grep -i git
+  734  history | grep -i git>>"comandosGit.txt"
+  737  history | grep -i git | unique
+  738  history | grep -i git | uniq
+  739  history | grep -i git | uniq>comandosGit.txt
+  743  git status
+  744  git add comandosGit.txt
+  745  git status
+  746  git commit --help
+  747  git commit -m 'agrega comandillos'
+  748  git branch
+  752  git status
+  753  git add .
+  754  git status
+  755  git push
+  758  git status
+  759  git push
+  760  git status
+  761  git add prueba.txt
+  762  git status
+  763  git push
+  764  git add prueba.txt
+  765  git commit -m "cambio prueba"
+  766  git status
+  767  git push
+  770  git commit -m "nuevos cambios"
+  771  git push
+  772  git add prueba.txt
+  773  git commit -m "nuevos cambios mas"
+  774  git push
+  782  git branch
+  783  git pull origin rama2
+  785  git log
+  790  git add $(ls | grep -i sal)
+  791  git commit -m "se agrego el saludo"
+  792  git status
+  793  git push
+  794  git branch
+  795  git log
+  796  git revert 2a3b80c3f15d1b393a59facc0f0a61bf85f057c1
+  797  git push
+  798  git log
+  802  git add viernes.txt
+  803  git commit -m "es viernes"
+  804  git push
+  805  git log
+  806  git revert 644b70aec80025e87f09d39913224d57ff47ea4f
+  807  git push
+  808  ls | grep -i git
+  809  history | grep -i git
+  811  history | grep -i git>>comandosGit.txt
+  812  history | grep -i|uniq  git>>comandosGit.txt
+  813  history | grep -i git|uniq>>comandosGit.txt
